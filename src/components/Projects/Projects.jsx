@@ -1,20 +1,20 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
 import Hero from "../Hero/Hero";
-import Container from "../Container/Container";
-import Footer from "../Footer/Footer";
+import ProjectCard from "../ProjectCard/ProjectCard";
 
-function Header(props) {
 
-  return(<div>
-    <Navbar />
-    {/* <Hero backgroundImage="https://www.freecodecamp.org/news/content/images/size/w1000/2022/05/ilya-pavlov-OqtafYT5kTw-unsplash.jpg">
+function Projects () {
+return (
+    <>
+    <Hero backgroundImage="https://cdn-developer-wp.arc.dev/wp-content/uploads/2022/06/coding-programming-project-ideas-1128x635.jpg">
       <h1>Welcome, My name is Aleks.</h1>
       <h2>A front end Web Developer</h2>
       <img alt="Portfolio's Avatar"  src="https://a0.anyrgb.com/pngimg/422/1054/half-body-model-blond-male-models-to-work-in-an-office-man-delayering-cartoon-man-man-avatar-angry-man-snow-man-thumbnail.png" className="avatarImg" />
-    </Hero> */}
-    
-  </div>) 
+    </Hero>
+    <ProjectCard />
+    </>
+)
 }
 
-export default Header;
+
+export default Projects;

@@ -32,27 +32,27 @@ function Navbar() {
                   isActive ? 'nav-link active' : 'nav-link'
                 }
               >
-                About
+                Home
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
-                to="/discover"
+                to="/Projects"
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
                 }
               >
-                Discover
+                Projects
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
-                to="/search"
+                to="/ContactMe"
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
                 }
               >
-                Search
+                Contact Me
               </NavLink>
             </li>
           </ul>

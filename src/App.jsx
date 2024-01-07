@@ -1,23 +1,26 @@
-import {  React, useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css';
-import Header from './components/Header/Header';
-
+import { React, useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
+import Footer from "./components/Footer/Footer";
+import Wrapper from "./components/Wrapper/Wrapper";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
     <Router>
       <div>
-        <Header />
-        {/* <Header>
+       <Header />
+        <Wrapper>
           <Routes>
-            <Route path="/" element={<About/>} />
-            <Route path="/about" element={<About/>} />
-            <Route path="/discover" element={<Discover/>} />
-            <Route path="/search" element={<Search/>} />
+            <Route path="/" element={<Home />}  />
+            <Route path="/Projects" element={<Projects />} />
+            {/* <Route path="/ContactMe" element={<Contact />} /> */}
           </Routes>
-        </Header> */}
-        {/* <Footer /> */}
+        </Wrapper>
+
+        <Footer />
       </div>
     </Router>
   );
