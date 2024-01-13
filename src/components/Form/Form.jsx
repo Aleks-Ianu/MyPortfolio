@@ -24,7 +24,9 @@ function Form() {
     event.preventDefault();
 
     // Alert the user their first and last name, clear `formData.firstName` and `formData.lastName`, clearing the inputs
-    alert(`Hi ${formData.firstName} ${formData.lastName}, thanks for your message, I will be in touch with you.`);
+    alert(
+      `Hi ${formData.firstName} ${formData.lastName}, thanks for your message, I will be in touch with you.`
+    );
     setFormData({
       firstName: "",
       lastName: "",
@@ -38,10 +40,11 @@ function Form() {
         Hi {formData.firstName} {formData.lastName},let's get in touch.
       </p>
       <form className="form">
-        <label for="name">Enter Your Name:</label>
+        <label for="name">Enter Your Name</label>
         <input
           value={formData.firstName}
           name="firstName"
+          id="name"
           onChange={handleInputChange}
           type="text"
           placeholder="First Name"
@@ -51,6 +54,7 @@ function Form() {
         <input
           value={formData.lastName}
           name="lastName"
+          id="lastName"
           onChange={handleInputChange}
           type="text"
           placeholder="Last Name"
@@ -58,18 +62,19 @@ function Form() {
         />
         <label for="email">Enter Your Email:</label>
         <input
+          id="email"
           value={formData.email}
           name="email"
           type="email"
           placeholder="Enter your email"
           autoComplete="email"
         />
-        <label for="floatingTextarea">Enter your message:</label>
+        <label for="floatingTextArea">Enter your message:</label>
         <div className="form-floating">
           <textarea
             className="form-control"
             placeholder="Leave a comment here"
-            id="floatingTextarea"
+            id="floatingTextArea"
             autoComplete="off"
           ></textarea>
         </div>
