@@ -34,7 +34,11 @@
   }
   
 .avatarImg {
-    height:200px;
+    height:40%;
     border-radius: 100px;
+    display:block;
+    margin: auto;
+    width: auto;
+
     
   }

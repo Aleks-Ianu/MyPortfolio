@@ -8,7 +8,8 @@ function Contact() {
         <div>
     <Hero backgroundImage="https://www.imengineeringwest.com/content/dam/Informa/amg/ime-west/2024/images/IMEW24-contact-us-hero.png">
       <h1>Hi There</h1>
-      <h2>fill in this form and reach out to me</h2>
+      <br />
+      <h2>fill in this form to reach out to me</h2>
     </Hero>
     <Container style={{ marginTop: 30}}>
         <div className="row">

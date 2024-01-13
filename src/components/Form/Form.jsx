@@ -24,7 +24,7 @@ function Form() {
     event.preventDefault();
 
     // Alert the user their first and last name, clear `formData.firstName` and `formData.lastName`, clearing the inputs
-    alert(`Hi ${formData.firstName} ${formData.lastName}, thanks for your message, I will be in touch soon.`);
+    alert(`Hi ${formData.firstName} ${formData.lastName}, thanks for your message, I will be in touch with you.`);
     setFormData({
       firstName: "",
       lastName: "",
@@ -38,36 +38,43 @@ function Form() {
         Hi {formData.firstName} {formData.lastName},let's get in touch.
       </p>
       <form className="form">
+        <label for="name">Enter Your Name:</label>
         <input
           value={formData.firstName}
           name="firstName"
           onChange={handleInputChange}
           type="text"
           placeholder="First Name"
+          autoComplete="name"
         />
+        <label for="lastName">Enter Your Last Name:</label>
         <input
           value={formData.lastName}
           name="lastName"
           onChange={handleInputChange}
           type="text"
           placeholder="Last Name"
+          autoComplete="family-name"
         />
+        <label for="email">Enter Your Email:</label>
         <input
           value={formData.email}
           name="email"
           type="email"
           placeholder="Enter your email"
+          autoComplete="email"
         />
-        <div class="form-floating">
+        <label for="floatingTextarea">Enter your message:</label>
+        <div className="form-floating">
           <textarea
-            class="form-control"
+            className="form-control"
             placeholder="Leave a comment here"
             id="floatingTextarea"
+            autoComplete="off"
           ></textarea>
-          <label for="floatingTextarea"></label>
         </div>
 
-        <button type="button" onClick={handleFormSubmit}>
+        <button id="btn" type="button" onClick={handleFormSubmit}>
           Submit
         </button>
       </form>
