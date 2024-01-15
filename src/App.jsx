@@ -11,7 +11,7 @@ import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <Router>
-      <div>
+       <div>
         <Header />
         <Wrapper>
           <Routes>

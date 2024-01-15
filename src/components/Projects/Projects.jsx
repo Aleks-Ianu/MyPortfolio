@@ -6,7 +6,7 @@ function Projects() {
   return (
     <>
       <Hero backgroundImage="https://cdn-developer-wp.arc.dev/wp-content/uploads/2022/06/coding-programming-project-ideas-1128x635.jpg">
-        <h1>Welcome to my Projects Page</h1>
+        <h1>Have a look at my Projects</h1>
       </Hero>
       <div className="m-4">
         <ProjectCard />

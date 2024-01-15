@@ -6,6 +6,8 @@ function Form() {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
+    email: "",
+    txtarea: ""
   });
 
   const handleInputChange = (event) => {
@@ -25,15 +27,19 @@ function Form() {
 
     // Alert the user their first and last name, clear `formData.firstName` and `formData.lastName`, clearing the inputs
     alert(
-      `Hi ${formData.firstName} ${formData.lastName}, thanks for your message, I will be in touch with you.`
+      `Hi ${formData.firstName} ${formData.lastName},Thanks for your message, I will be in touch with you soon.`
     );
     setFormData({
       firstName: "",
       lastName: "",
+      email: "",
+      txtarea: ""
     });
   };
 
-  // Notice how each input has a `value`, `name`, and `onChange` prop
+
+
+
   return (
     <div>
       <p>
@@ -62,6 +68,7 @@ function Form() {
         />
         <label for="email">Enter Your Email:</label>
         <input
+          onChange={handleInputChange}
           id="email"
           value={formData.email}
           name="email"
@@ -72,10 +79,13 @@ function Form() {
         <label for="floatingTextArea">Enter your message:</label>
         <div className="form-floating">
           <textarea
+            onChange={handleInputChange}
+            value={formData.txtarea}
+            name="txtarea"
             className="form-control"
-            placeholder="Leave a comment here"
             id="floatingTextArea"
             autoComplete="off"
+            
           ></textarea>
         </div>
 

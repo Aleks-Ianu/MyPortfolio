@@ -6,7 +6,7 @@ function Home(props) {
   return (
     <div>
       <Hero backgroundImage="https://www.freecodecamp.org/news/content/images/size/w1000/2022/05/ilya-pavlov-OqtafYT5kTw-unsplash.jpg">
-        <h1>Welcome, My name is Aleks.</h1>
+        <h1>Welcome to my Page, My name is Aleks.</h1>
         <h2>A front end Web Developer</h2>
         <img
           alt="Portfolio's Avatar"
@@ -17,7 +17,7 @@ function Home(props) {
       <Container style={{ marginTop: 30 }}>
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-12">
-            <h1>Welcome to my Portfolio</h1>
+            <h1>About Me</h1>
           </div>
         </div>
         <div className="row">
