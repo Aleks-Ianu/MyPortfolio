@@ -5,7 +5,7 @@
             "title": "Team Dash Generator",
             "link": "https://aleks-ianu.github.io/Team-Dash-Generator/",
             "description": "The project was made to help the needs of managers that want to generate a dashboard that display's their team basic info to keep track of the team and to access their emails and github profiles quickly.",
-            "img": "src/assets/ProjectPics/Team Dash Gen.png"
+            "img": "/img/Team Dash Gen.png"
 
         },
         {
@@ -13,35 +13,35 @@
             "title": "Daily Calendar",
             "link": "https://aleks-ianu.github.io/DailyCalendar/",
             "description": "This project is adynamic work scheduler that allows us to save to do's for the day and depending on the hour it shows past present and future, perfect for someone that is really busy, like you.",
-            "img": "src/assets/ProjectPics/DailyCalendar.png"
+            "img": "/img/DailyCalendar.png"
         },
         {
             "id": 3,
             "title": "Randomize Password",
             "link": "https://aleks-ianu.github.io/Randomize-Password/",
             "description": "This project represents a webpage where you can generate random passwords for your accounts by choosing length and sets of characters",
-            "img": "src/assets/ProjectPics/Passwordgen.png"
+            "img": "/img/Passwordgen.png"
         },
         {
             "id": 4,
             "title": "Bootstrap Portfolio",
             "link": "https://aleks-ianu.github.io/Bootstrap-Portfolio/",
             "description": "Hi there, welcome to my repository, this project was written using CSS HTML and Bootstrap. In this project i have recreated the project i made before(aleks-ianu.github.io/AI-Portfolio/) made using pure CSS and i adapted it using Bootstrap. ",
-            "img": "src/assets/ProjectPics/BootstrapPortfolio.png"
+            "img": "/img/BootstrapPortfolio.png"
         },
         {
             "id": 5,
             "title": "Read Me Generator",
             "link": "aleks-ianu.github.io/ReadMeGenerator/",
             "description": "This application was created to dinamically generate a professional README file without having to research what to put in each section. The application runs by using the command line. By using this application you will be able to devote ore time on working on other projects! The application uses Node and the Inquirer package, this enable the user to create a great README file just by following this simple step by step guide.",
-            "img": "src/assets/ProjectPics/ReadmeGen.png"
+            "img": "/img/ReadmeGen.png"
         },
         {
             "id": 6,
             "title": "Quiz It",
             "link": "aleks-ianu.github.io/QuizIt/",
             "description": "This application is design for junior developers to test their basic knowledge on javascript with a set of questions and a time limit. Take your time if you are not sure of the answer as for every wrong guesses you will lose 10 seconds! The application was made using javascript concepts as DOM manipulation and LocalStorage, CSS and HTML.",
-            "img": "src/assets/ProjectPics/QuiziT.png"
+            "img": "/img/QuiziT.png"
         }
     ]
 }
